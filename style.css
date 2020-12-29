@@ -1,0 +1,53 @@
+h1 {
+    color: white;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu{
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.item{
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2,h3{
+    text-align: center;
+}
+
+a:link, a:visited{
+    color: rgb(15, 250, 8);
+    padding: 2em;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: red;
+    padding: 2em;
+    color: white;
+}
